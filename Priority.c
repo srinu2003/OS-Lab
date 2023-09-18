@@ -10,13 +10,13 @@ void main() {
     pr = (int*)malloc(n * sizeof(int));
     tt = (int*)malloc(n * sizeof(int));
     wt = (int*)malloc(n * sizeof(int));
-    // printf("Enter burst time for each process:\n");
+    /* printf("Enter burst time for each process:\n"); */
     for (int i = 0; i < n; i++) {
         printf("Enter (Burst time , priority) of processes %d:",i+1);
         scanf("%d", &bt[i]);
-        // printf("Enter the priority of processes %d:",i+1);
+        /* printf("Enter the priority of processes %d:",i+1); */
         scanf("%d", &pr[i]);
-		//Insertion sort		
+		/* Insertion sort */
 	    for (int j = i; j > 0; j--){
 			if(pr[j] < pr[j-1]){
 				pr[j] += pr[j-1];
