@@ -1,3 +1,10 @@
+# vs-code
+tempCodeRunnerFile*
+
+# Replit
+*replit*
+*.ccls-cache
+
 # Prerequisites
 *.d
 
